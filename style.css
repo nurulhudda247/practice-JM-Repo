@@ -143,3 +143,34 @@ a:visited{
     color: #08c;
     transition: .5s;
 }
+
+/********************************************
+            Contacts Section Starts
+*********************************************/
+
+.contacts-section{
+    margin-top: 50px;
+}
+
+.contacts-section .contacts{
+    display: flex;
+    align-items: center;
+}
+
+.contacts-section .contacts .contacts-info{
+    width: 50%;
+    margin-left: 50px;
+}
+
+.contacts-section .contacts .contacts-info span{
+    color: #08c;
+}
+
+.contacts-section .contacts .contacts-img{
+    width: 50%;
+    text-align: center;
+}
+
+.contacts-section .contacts .contacts-img img{
+    width: 50%;
+}
