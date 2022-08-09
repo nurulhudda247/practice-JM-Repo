@@ -7,65 +7,41 @@
     font-family: 'Poppins', sans-serif;
 }
 
+
 .container{
-    margin: 0 10%;
-    padding-top: 20px;
+    padding: 10px 5em;
 }
 
-nav{
+a:visited{
+    color: transparent;
+}
+
+.header .navbar{
     display: flex;
     justify-content: space-between;
 }
 
-nav .logo{
+.header .navbar .logo{
     color: #08c;
 }
 
-nav ul{
-    display: flex;
+.header .navbar .nav-items ul{
     list-style: none;
 }
 
-nav ul li{
-    padding: 5px 10px;
+.header .navbar .nav-items ul a{
+    text-decoration: none;
 }
 
-nav a{
-    color: #000;
-    text-decoration: none;
+
+.header .nav-items ul li{
+    display: inline-block;
+    line-height: 35px;
+    padding: 0 10px;
     font-weight: 600;
 }
 
-nav a li:hover{
-    border-bottom: 3px solid #08c;
-}
-
-
-
-
-/** about section **/
-.about-text span{
-    color: coral;
-}
-
-.about{
-    display: flex;
-    justify-content: space-between;
-}
-
-.about-text{
-    width: 50%;
-    padding-right: 120px;
-    padding-top: 7em;
-}
-
-.about img{
-    padding-top: 10px;
-    width: 30%;
-    border-radius: 75%;
-}
-
-.pattern-dots-lg{
-    width: 200px;
-    height: 200px;
+.header .navbar .nav-items ul li:hover{
+    color: #08c;
+    transition: .3s;
 }
