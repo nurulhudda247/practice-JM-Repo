@@ -16,12 +16,19 @@ a:visited{
     color: transparent;
 }
 
+.header{
+    background-image: url(./img/about-bg.jpg);
+    background-repeat: no-repeat;
+}
+
 .header .navbar{
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 
 .header .navbar .logo{
+    font-size: 24px;
     color: #08c;
 }
 
@@ -31,6 +38,7 @@ a:visited{
 
 .header .navbar .nav-items ul a{
     text-decoration: none;
+    font-size: 18px;
 }
 
 
@@ -44,4 +52,94 @@ a:visited{
 .header .navbar .nav-items ul li:hover{
     color: #08c;
     transition: .3s;
+}
+
+/*************************************
+            Home Section Starts
+**************************************/
+
+.home{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    align-items: center;
+}
+.home .intro-txt h1{
+    font-size: 35px;
+}
+
+.home .intro-txt span{
+    color: #08c;
+    font-size: 45px;
+}
+
+.home .intro-txt{
+    width: 50%;
+}
+
+.home .intro-img{
+    width: 50%;
+    text-align: right;
+}
+
+.home .intro-img img{
+    width: 60%;
+    border-radius: 50%;
+}
+
+
+/*******************************************
+            About Section Starts
+********************************************/
+
+.about-section{
+    background-image: url(./img/home-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    padding-top: 30px;
+}
+
+.about-section .about{
+    display: flex;
+    align-items: center;
+}
+
+.about-section .about .about-img{
+    width: 50%;
+}
+
+.about-section .about .about-img img{
+    width: 70%;
+    border-radius: 50%;
+}
+
+.about-section .about .about-txt{
+    width: 50%;
+    text-align: right;
+}
+
+.about-section .about .about-txt span{
+    color: #08c;
+    font-weight: bold;
+}
+
+.about-section .about .about-txt p{
+    margin-bottom: 20px;
+}
+
+.about-section .about .resume-btn{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    background-color: #08c;
+    padding: 7px 40px;
+    border: 1px solid #08c;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.about-section .about .resume-btn:hover{
+    background-color: transparent;
+    color: #08c;
+    transition: .5s;
 }
