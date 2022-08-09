@@ -153,6 +153,8 @@ a:visited{
     background-image: url(./img/12320008_SL-051919-20420-31.jpg);
     background-repeat: no-repeat;
     background-position: right;
+    background-origin: content-box;
+    background-size: 50rem 50rem;
 }
 
 .contacts-section .contacts{
